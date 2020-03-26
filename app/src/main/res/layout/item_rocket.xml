@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:padding="4dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/missionName"
+                style="@style/Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mission Name" />
+
+            <TextView
+                android:id="@+id/rocketName"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rocket Name" />
+
+            <TextView
+                android:id="@+id/launchSite"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Launch Site Name" />
+
+            <TextView
+                android:id="@+id/launchDate"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date of Launch" />
+
+        </LinearLayout>
+    </LinearLayout>
+</layout>
